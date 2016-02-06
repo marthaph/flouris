@@ -1,0 +1,109 @@
+body{
+	background-image: url('../img/bg1.png');
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-attachment: fixed;	
+}
+.logotype{
+		
+	margin:0 auto;
+	display: block;
+	width: 300px;
+	margin-top: 130px;
+}
+.logotype img{
+	width: 300px;
+    z-index: 20;
+   	margin-left: -182px;
+    margin-top: -3px;
+    position: absolute;
+}
+.logotype p{
+	color: #9fc73a;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+/* --- Logo fade ---*/
+#slide{
+	display: block;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.logotype #our{
+	display: none;
+	position: absolute;
+    text-align: center;
+    font-size: 38px;
+    color: #98c32a;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 300;
+    margin: 0 0 0 100px;
+}
+
+#one, #two, #thre {
+	text-align: center;
+    display: none; 
+    width: 200px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -102px;  
+}
+.logotype span{
+	font-size: 24px;
+	color: #59595a;
+	font-family: 'Lato', sans-serif;	
+}
+#logo{
+	display: none;
+}
+#text_logo{
+	display: none;
+	padding-top: 55px;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: -39px;
+	z-index: 10;
+	position: absolute;
+}
+
+
+@media screen and (max-width : 500px) {
+    
+	#one, #two, #thre {
+		width: 200px;
+    	position: absolute;
+		margin-top: 40px;
+    	margin-left: -118px;  
+    	font-size: 18px;
+    	font-weight: 400;
+	}
+	.logotype #our{
+		font-size: 25px;
+    	color: #98c32a;
+    	text-transform: uppercase;
+    	letter-spacing: 3px;
+    	font-weight: 300;
+    	margin: 0 0 0 100px;
+	}
+
+	.logotype img{
+		width: 200px;
+    	z-index: 20;
+   		margin-left: -140px;
+    	margin-top: -3px;
+    	position: absolute;
+	}
+	#text_logo{
+		padding-top: 45px;
+		text-align: center;
+		margin: 0 auto;
+		margin-left: -28px;
+	}
+}
